@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skills — Gayathri S</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="dot"></span>Gayathri S</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="internships.html">Internships</a>
+      <a href="contact.php">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Skills</h1>
+    <p>What I bring to the table — technically and beyond.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3><span class="swatch" style="background:var(--violet);"></span>Technical</h3>
+        <div class="skill-bar">
+          <div class="top-row"><span>Java (beginner)</span></div>
+          <div class="track"><div class="fill" style="width:35%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="top-row"><span>Figma (UI/UX)</span></div>
+          <div class="track"><div class="fill" style="width:70%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="top-row"><span>MySQL &amp; SQLite</span></div>
+          <div class="track"><div class="fill" style="width:60%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="top-row"><span>Red Hat Linux &amp; shell</span></div>
+          <div class="track"><div class="fill" style="width:55%;"></div></div>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3><span class="swatch" style="background:var(--cyan);"></span>Professional</h3>
+        <div class="tag-cloud">
+          <span class="tag-pill">Problem solving</span>
+          <span class="tag-pill">Team collaboration</span>
+          <span class="tag-pill">Analytical thinking</span>
+        </div>
+        <p style="margin-top: 18px; font-size: 0.9rem;">
+          The habits that show up in group projects and hackathons: breaking a messy problem
+          into something workable, and getting a team aligned on it.
+        </p>
+      </div>
+
+      <div class="skill-card">
+        <h3><span class="swatch" style="background:var(--coral);"></span>Personal</h3>
+        <div class="tag-cloud">
+          <span class="tag-pill">Leadership</span>
+          <span class="tag-pill">Management</span>
+          <span class="tag-pill">Time management</span>
+          <span class="tag-pill">Communication</span>
+          <span class="tag-pill">Critical thinking</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">&copy; <span id="year"></span> Gayathri S · Madurai, India · Built with HTML, CSS, JavaScript &amp; PHP · <a href="admin/login.php">Admin</a></div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

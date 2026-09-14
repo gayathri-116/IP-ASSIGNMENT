@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Gayathri S</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="dot"></span>Gayathri S</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="internships.html">Internships</a>
+      <a href="contact.php">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Projects</h1>
+    <p>IoT systems I've built and interfaces I've designed.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">All projects</button>
+      <button class="filter-btn" data-filter="iot">IoT</button>
+      <button class="filter-btn" data-filter="uiux">UI / UX</button>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card" data-cat="iot">
+        <span class="tag">IoT</span>
+        <h3>Smart Flood Detection using IoT</h3>
+        <p>An IoT-based flood detection system built around sensors and real-time monitoring, designed to give communities enough warning to act.</p>
+        <ul>
+          <li>Alert mechanisms notify communities as water levels rise</li>
+          <li>Data visualisation dashboards for monitoring flood risk zones</li>
+          <li>Sensor network reports conditions in real time</li>
+        </ul>
+        <span class="award-note">🏆 Winner — Thinkathon 2K25</span>
+      </article>
+
+      <article class="project-card" data-cat="uiux">
+        <span class="tag">UI / UX</span>
+        <h3>Luxury Salon UI/UX Design Project</h3>
+        <p>A modern, user-friendly interface for a luxury salon booking platform, built around responsive layouts and clear visual branding.</p>
+        <ul>
+          <li>Interactive prototypes for appointment scheduling, stylist profiles, and payment flow</li>
+          <li>Usability testing feedback folded back into the design</li>
+          <li>Focus on accessibility and consistent design language</li>
+        </ul>
+      </article>
+
+      <article class="project-card" data-cat="iot">
+        <span class="tag">IoT</span>
+        <h3>Smart Rain &amp; Temperature Monitoring for Agriculture</h3>
+        <p>A real-time IoT system using ESP32, DHT11, and rain sensors to keep an eye on environmental conditions for farmland.</p>
+        <ul>
+          <li>LED and buzzer alerts trigger instantly on rainfall or temperature spikes</li>
+          <li>Cloud connectivity enables remote data visualisation and analysis</li>
+          <li>Built for continuous, low-maintenance field monitoring</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">&copy; <span id="year"></span> Gayathri S · Madurai, India · Built with HTML, CSS, JavaScript &amp; PHP · <a href="admin/login.php">Admin</a></div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

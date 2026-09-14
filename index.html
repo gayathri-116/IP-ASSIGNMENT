@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gayathri S — Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="dot"></span>Gayathri S</a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="internships.html">Internships</a>
+      <a href="contact.php">Contact</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-inner">
+    <h1 class="reveal d2">Building things with <span>IoT, code and design.</span></h1>
+    <p class="lede reveal d3">
+      I'm Gayathri, a Computer Science Engineering student at Kamaraj College of Engineering
+      and Technology. I build IoT systems that sense the physical world and interfaces that
+      feel good to use — and I'm always looking for the next hard problem to learn from.
+    </p>
+    <div class="cta-row reveal d4">
+      <a href="projects.html" class="btn btn-primary">View my projects</a>
+      <a href="contact.php" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    &copy; <span id="year"></span> Gayathri S · Madurai , India ·
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
